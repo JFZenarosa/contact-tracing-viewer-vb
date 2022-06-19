@@ -3,12 +3,12 @@
 Public Class Form1
     Private Sub openBtn_Click(sender As Object, e As EventArgs) Handles openBtn.Click
         Dim form As StreamReader
-        Dim ofd As New OpenFileDialog
-        ofd.ShowDialog()
-        ofd.InitialDirectory = "C:\\Example"
-        If ofd.ShowDialog = DialogResult.OK Then
+        Dim ofd As DialogResult
+        ofd = OpenFileDialog1.ShowDialog
+        OpenFileDialog1.InitialDirectory = "C:\\Example"
+        If ofd = DialogResult.OK Then
 
-            form = New StreamReader(ofd.FileName)
+            form = New StreamReader(OpenFileDialog1.FileName)
             textReader.Text = form.ReadToEnd
 
             form.Close()

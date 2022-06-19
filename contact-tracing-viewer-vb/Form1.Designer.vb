@@ -26,6 +26,7 @@ Partial Class Form1
         Me.clrBtn = New System.Windows.Forms.Button()
         Me.openBtn = New System.Windows.Forms.Button()
         Me.textReader = New System.Windows.Forms.RichTextBox()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.SuspendLayout()
         '
         'label2
@@ -65,6 +66,10 @@ Partial Class Form1
         Me.textReader.TabIndex = 5
         Me.textReader.Text = ""
         '
+        'OpenFileDialog1
+        '
+        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -85,4 +90,5 @@ Partial Class Form1
     Private WithEvents clrBtn As Button
     Private WithEvents openBtn As Button
     Private WithEvents textReader As RichTextBox
+    Friend WithEvents OpenFileDialog1 As OpenFileDialog
 End Class
