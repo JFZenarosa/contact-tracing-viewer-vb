@@ -1,0 +1,12 @@
+X:\School\Visual Studio\Repository\contact-tracing-viewer-vb\contact-tracing-viewer-vb\bin\Debug\contact-tracing-viewer-vb.exe.config
+X:\School\Visual Studio\Repository\contact-tracing-viewer-vb\contact-tracing-viewer-vb\bin\Debug\contact-tracing-viewer-vb.exe
+X:\School\Visual Studio\Repository\contact-tracing-viewer-vb\contact-tracing-viewer-vb\bin\Debug\contact-tracing-viewer-vb.pdb
+X:\School\Visual Studio\Repository\contact-tracing-viewer-vb\contact-tracing-viewer-vb\bin\Debug\contact-tracing-viewer-vb.xml
+X:\School\Visual Studio\Repository\contact-tracing-viewer-vb\contact-tracing-viewer-vb\obj\Debug\contact-tracing-viewer-vb.vbproj.AssemblyReference.cache
+X:\School\Visual Studio\Repository\contact-tracing-viewer-vb\contact-tracing-viewer-vb\obj\Debug\contact_tracing_viewer_vb.Form1.resources
+X:\School\Visual Studio\Repository\contact-tracing-viewer-vb\contact-tracing-viewer-vb\obj\Debug\contact_tracing_viewer_vb.Resources.resources
+X:\School\Visual Studio\Repository\contact-tracing-viewer-vb\contact-tracing-viewer-vb\obj\Debug\contact-tracing-viewer-vb.vbproj.GenerateResource.cache
+X:\School\Visual Studio\Repository\contact-tracing-viewer-vb\contact-tracing-viewer-vb\obj\Debug\contact-tracing-viewer-vb.vbproj.CoreCompileInputs.cache
+X:\School\Visual Studio\Repository\contact-tracing-viewer-vb\contact-tracing-viewer-vb\obj\Debug\contact-tracing-viewer-vb.exe
+X:\School\Visual Studio\Repository\contact-tracing-viewer-vb\contact-tracing-viewer-vb\obj\Debug\contact-tracing-viewer-vb.xml
+X:\School\Visual Studio\Repository\contact-tracing-viewer-vb\contact-tracing-viewer-vb\obj\Debug\contact-tracing-viewer-vb.pdb
