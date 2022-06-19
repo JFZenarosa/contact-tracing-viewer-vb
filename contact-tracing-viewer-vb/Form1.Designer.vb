@@ -74,11 +74,13 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ClientSize = New System.Drawing.Size(658, 458)
         Me.Controls.Add(Me.label2)
         Me.Controls.Add(Me.clrBtn)
         Me.Controls.Add(Me.openBtn)
         Me.Controls.Add(Me.textReader)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Name = "Form1"
         Me.Text = "Contact Tracing Form Viewer"
         Me.ResumeLayout(False)
