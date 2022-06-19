@@ -7,9 +7,11 @@ Public Class Form1
         ofd.ShowDialog()
 
         If ofd.ShowDialog = Windows.Forms.DialogResult.OK Then
-            Dim contactForm As String = ofd.FileName
-            Dim filetext As String = File.ReadAllLines(contactForm As String)
 
+            form = New StreamReader(ofd.FileName)
+            textReader.Text = form.ReadToEnd
+
+            form.Close()
 
         End If
     End Sub
