@@ -5,8 +5,8 @@ Public Class Form1
         Dim form As StreamReader
         Dim ofd As New OpenFileDialog
         ofd.ShowDialog()
-
-        If ofd.ShowDialog = Windows.Forms.DialogResult.OK Then
+        ofd.InitialDirectory = "C:\\Example"
+        If ofd.ShowDialog = DialogResult.OK Then
 
             form = New StreamReader(ofd.FileName)
             textReader.Text = form.ReadToEnd
