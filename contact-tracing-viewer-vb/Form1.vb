@@ -15,4 +15,9 @@ Public Class Form1
 
         End If
     End Sub
+
+    Private Sub clrBtn_Click(sender As Object, e As EventArgs) Handles clrBtn.Click
+        textReader.Clear()
+
+    End Sub
 End Class
